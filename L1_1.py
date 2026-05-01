@@ -13,3 +13,13 @@ b, c, d  = 1, 2.5, "one line assignment"
 print(b)
 print(c)
 print(d)
+
+#concatenation of string
+print("{} {}".format(str, c))
+
+print("{} {} {} {}".format("value of C is", c, "and Value of A is", a))
+
+#type checking
+print(type(a))
+print(type(c))
+print(type(d))
